@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  width: 100%;
+  height: 50px;
+}
+
+.brand-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.brand-container img {
+  width: 40px;
+  border-radius: 5px;
+}
+
+.ul-navbar {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  list-style-type: none;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.a-li {
+  text-decoration: none;
+}
+
+.li-navbar:hover {
+  background-color: rgb(96, 96, 96);
+  transition: 0.4s ease-in-out;
+  border-radius: 5px;
+}
+
+.navbar-search {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.content-container {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.profile-container {
+  height: 250px;
+  width: 70%;
+  background-color: rgb(255, 255, 255);
+  margin: 15px;
+}
+
+.short-profile-container {
+  margin: 10px;
+}
+
+.title {
+    font-size: 13;
+}
+
+
+
+.short-profile-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.profile-picture {
+  width: 182;
+  border-radius: 100px;
+  margin: 5px;
+}
+
+.text-basabasi {
+    margin: 5px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  background-color: aquamarine;
+}
+
+.h1-footer {
+  color: rgb(105, 105, 125);
+  font-size: 25px;
+}
