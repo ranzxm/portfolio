@@ -127,16 +127,19 @@
 /* SKILLS CONTAINER */
 
 .myskills-container {
-  width: 80%;
+  width: 90%;
   margin-top: 10px;
+  justify-content: space-around;
   display: flex;
+
 }
 
 /* SKILLS START */
 
 .my-skills {
   margin-top: 10px;
-  width: 70%;
+  width: 60%;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -153,6 +156,7 @@
   flex-direction: column;
   height: 100%;
   align-items: center;
+  margin-left: 10px;
 }
 
 .tools-skill .title {
@@ -179,7 +183,7 @@
 }
 
 .tools-ico img {
-  width: 50px;
+  width: 45px;
 }
 
 /* TOOLS END */
@@ -204,12 +208,12 @@
   flex-direction: column;
   align-items: center;
   font-size: 12px;
-  width: 150px;
+  width: 100px;
   height: 200px;
 }
 
 .img-card-skills img {
-  width: 150px;
+  width: 75px;
 }
 
 .skill-bar {
