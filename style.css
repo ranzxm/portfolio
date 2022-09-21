@@ -75,11 +75,7 @@
 .profile-container {
   height: 250px;
   width: 70%;
-  background-color: rgb(255, 255, 255);
   margin: 15px;
-  box-shadow: 15px 19px 17px -14px rgba(0, 0, 0, 0.35);
-  -webkit-box-shadow: 15px 19px 17px -14px rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 15px 19px 17px -14px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
 }
 
@@ -88,7 +84,12 @@
 }
 
 .title {
+  letter-spacing: 4px;
   font-size: 13;
+}
+
+.title h2 span {
+  font-size: 25px;
 }
 
 .short-profile-content {
@@ -123,21 +124,72 @@
   font-size: 25px;
 }
 
+/* SKILLS CONTAINER */
+
 .myskills-container {
   width: 80%;
   margin-top: 10px;
+  display: flex;
 }
+
+/* SKILLS START */
 
 .my-skills {
   margin-top: 10px;
-  width: 100%;
+  width: 70%;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.list-skills {
+/* SKILLS END */
+
+/* TOOLS START */
+
+.tools-skill {
+  margin-top: 10px;
+  width: 30%;
   display: flex;
+  flex-direction: column;
+  height: 100%;
+  align-items: center;
+}
+
+.tools-skill .title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.list-tools {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  width: 100%;
+  height: 220px;
+}
+
+.tools-ico {
+  margin-top: 0px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+
+.tools-ico img {
+  width: 50px;
+}
+
+/* TOOLS END */
+
+.list-skills {
+  width: 70%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .html-skills,
@@ -148,6 +200,7 @@
 
 .img-card-skills {
   display: flex;
+  justify-content: center;
   flex-direction: column;
   align-items: center;
   font-size: 12px;
@@ -189,22 +242,49 @@
   background-color: rgb(208, 159, 14);
 }
 
+.html-bar:hover {
+  transition: 0.3s;
+  width: 90%;
+  background-color: rgb(226, 71, 43);
+}
+
+.css-bar:hover {
+  transition: 0.3s;
+  width: 85%;
+  background-color: rgb(81, 56, 207);
+}
+
+.javascript-bar:hover {
+  transition: 0.3s;
+  width: 50%;
+  background-color: rgb(208, 167, 43);
+}
+
+/* SKILLS END */
+
+/* TOOLS START */
+
+
+
+/* TOOLS END */
+
+/* END OF SKILLS CONTAINER */
+
 .whyme-container {
   display: flex;
   height: 100%;
-  width: 80%;
-  box-shadow: -30px 34px 37px -28px rgba(0,0,0,0.55);
-  -webkit-box-shadow: -30px 34px 37px -28px rgba(0,0,0,0.55);
-  -moz-box-shadow: -30px 34px 37px -28px rgba(0,0,0,0.55);
+  width: 90%;
   margin-top: 20px;
   margin-bottom: 50px;
   border-radius: 8px;
 }
 
 .whyme-pic-container {
-  background-color: yellow;
-  width: 500px;
-  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  height: auto;
 }
 
 .whyme-content-container {
@@ -219,7 +299,7 @@
 .whyme-title-content {
   margin: 10px;
   height: 30px;
-  text-align: right;
+  text-align: center;
 }
 
 .whyme-content {
@@ -227,4 +307,29 @@
   justify-content: space-around;
   align-items: center;
   height: 372px;
+}
+
+.whyme-item-container  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  height: 280px;
+  margin: 10px;
+}
+
+.whyme-item-container p {
+  margin-top: 6px;
+  text-align: center;
+}
+
+.whyme-img {
+  height: 210px;
+  display: flex;
+  align-items: center;
+}
+
+.whyme-img img {
+  width: 200px;
 }

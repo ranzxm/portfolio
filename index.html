@@ -1,113 +1,165 @@
 <html>
-  <head>
-    <title>Web Saya</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <div class="container">
-      <!-- NAV BAR START -->
-      <div class="navbar-container">
-        <div class="brand-container">
-          <img src="javascript.png" />
-        </div>
-        <ul class="ul-navbar">
-          <a href="#" class="a-li">
-            <li class="li-navbar">About Me?</li>
-          </a>
-          <a href="#" class="a-li">
-            <li class="li-navbar">Contact!</li>
-          </a>
-        </ul>
-      </div>
-      <!-- NAV BAR END -->
 
-      <!-- CONTENT START -->
-      <div class="content-container">
-        <div class="profile-container">
-          <div class="short-profile-container">
-            <div class="title">
-              <h2>My Short Profile</h2>
+<head>
+  <title>Web Saya</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet" />
+  <script>
+    document.write(
+      '<script src="http://' +
+      (location.host || "${1:localhost}").split(":")[0] +
+      ':${2:35729}/livereload.js?snipver=1"></' +
+      "script>"
+    );
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- NAV BAR START -->
+    <div class="navbar-container">
+      <div class="brand-container">
+        <img src="javascript.png" />
+      </div>
+      <ul class="ul-navbar">
+        <a href="#" class="a-li">
+          <li class="li-navbar">About Me?</li>
+        </a>
+        <a href="#" class="a-li">
+          <li class="li-navbar">Contact!</li>
+        </a>
+      </ul>
+    </div>
+    <!-- NAV BAR END -->
+
+    <!-- CONTENT START -->
+    <div class="content-container">
+      <div class="profile-container">
+        <div class="short-profile-container">
+          <div class="title">
+            <h2>My Short Profile</h2>
+          </div>
+          <div class="short-profile-content">
+            <img src="profile-picture.jpeg" class="profile-picture" />
+            <p class="text-basabasi">
+              Hai, Perkenalkan nama saya Frans Simamora, saya adalah Fresh
+              graduate alumni Politeknik Negeri Medan dengan Jurusan Teknik
+              Komputer & Informatika Program Studi Teknik Komputer. Saya
+              senang menggeluti bidang Programming sejak saya masih duduk pada
+              bangku SMK hingga saat ini, tapi masih belum pandai juga WKWK,
+              karena saya masih belum serius mempelajarinya pada saat itu.
+              Maka dari itu sudah saya putuskan bahwa saya akan serius
+              mempelajari Programming ini, khususnya dibidang Frontend
+              Developer.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="myskills-container">
+        <div class="my-skills">
+          <div class="title">
+            <h2>My <span>Skills</span></h2>
+          </div>
+          <div class="list-skills">
+            <div class="html-skills">
+              <div class="img-card-skills">
+                <img src="assets/pic/html-skills.png" />
+                <div class="skill-bar">
+                  <p class="html-bar">90%</p>
+                </div>
+              </div>
             </div>
-            <div class="short-profile-content">
-              <img src="profile-picture.jpeg" class="profile-picture" />
-              <p class="text-basabasi">
-                Hai, Perkenalkan nama saya Frans Simamora, saya adalah Fresh
-                graduate alumni Politeknik Negeri Medan dengan Jurusan Teknik
-                Komputer & Informatika Program Studi Teknik Komputer. Saya
-                senang menggeluti bidang Programming sejak saya masih duduk pada
-                bangku SMK hingga saat ini, tapi masih belum pandai juga WKWK,
-                karena saya masih belum serius mempelajarinya pada saat itu.
-                Maka dari itu sudah saya putuskan bahwa saya akan serius
-                mempelajari Programming ini, khususnya dibidang Frontend
-                Developer.
+            <div class="css-skills">
+              <div class="img-card-skills">
+                <img src="assets/pic/css-skills.png" />
+                <div class="skill-bar">
+                  <p class="css-bar">85%</p>
+                </div>
+              </div>
+            </div>
+            <div class="javascript-skills">
+              <div class="img-card-skills">
+                <img src="assets/pic/javascript-skills.png" alt="javascript" />
+                <div class="skill-bar">
+                  <p class="javascript-bar">50%</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tools-skill">
+          <div class="title">
+            <h2>My <span>Tools</span></h2>
+          </div>
+          <div class="list-tools">
+            <div class="chrome-to tools-ico">
+              <img src="assets/pic/chrome-logo.png" alt="chrome" />
+            </div>
+            <div class="github-to tools-ico">
+              <img src="assets/pic/github-logo.png" alt="github" />
+            </div>
+            <div class="vscode-to tools-ico">
+              <img src="assets/pic/vscode-logo.png" alt="vscode" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="whyme-container">
+        <div class="whyme-pic-container">
+          <img src="assets/pic/happy-why.png" alt="whyshouldme?" />
+        </div>
+        <div class="whyme-content-container">
+          <div class="whyme-title-content">
+            <h2>Why <span>Should Me?</span></h2>
+          </div>
+          <div class="whyme-content">
+            <div class="whyme-item-container">
+              <div class="whyme-img">
+                <img src="assets/pic/diligent.png" alt="why1" />
+              </div>
+              <h3>Diligent</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Expedita delectus numquam cum repellendus culpa!
+              </p>
+            </div>
+            <div class="whyme-item-container">
+              <div class="whyme-img">
+                <img src="assets/pic/temawork.png" alt="why1" />
+              </div>
+              <h3>Teamwork</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Expedita delectus numquam cum repellendus culpa!
+              </p>
+            </div>
+            <div class="whyme-item-container">
+              <div class="whyme-img">
+                <img src="assets/pic/time-management.png" alt="why1" />
+              </div>
+              <h3>Time Management</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Expedita delectus numquam cum repellendus culpa!
               </p>
             </div>
           </div>
         </div>
-
-        <div class="myskills-container">
-          <div class="my-skills">
-            <div class="title">
-              <h2>My Skills</h2>
-            </div>
-            <div class="list-skills">
-              <div class="html-skills">
-                <div class="img-card-skills">
-                  <img src="assets/pic/html-skills.png" />
-                  <div class="skill-bar">
-                    <p class="html-bar">90%</p>
-                  </div>
-                </div>
-              </div>
-              <div class="css-skills">
-                <div class="img-card-skills">
-                  <img src="assets/pic/css-skills.png" />
-                  <div class="skill-bar">
-                    <p class="css-bar">85%</p>
-                  </div>
-                </div>
-              </div>
-              <div class="javascript-skills">
-                <div class="img-card-skills">
-                  <img src="assets/pic/javascript-skills.png" alt="javascript" />
-                  <div class="skill-bar">
-                    <p class="javascript-bar">50%</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="whyme-container">
-          <div class="whyme-pic-container">
-            <img src="assets/pic/happy-why.png" alt="whyshouldme?">
-          </div>
-          <div class="whyme-content-container">
-            <div class="whyme-title-content">
-              <h3>Why Should Me?</h3>
-            </div>
-            <div class="whyme-content">
-              <div class="1">1</div>
-              <div class="2">2</div>
-              <div class="3">3</div>
-            </div>
-          </div>
-        </div>
       </div>
-      <!-- CONTENT END -->
-
-      <!-- FOOTER START -->
-      <div class="footer-container">
-        <h1 class="h1-footer">Arigatou Gozaimasu | ranzXm</h1>
-      </div>
-      <!-- FOOTER END -->
     </div>
-  </body>
+  </div>
+  <!-- CONTENT END -->
+
+  <!-- FOOTER START -->
+  <div class="footer-container">
+    <h1 class="h1-footer">Arigatou Gozaimasu | ranzXm</h1>
+  </div>
+  <!-- FOOTER END -->
+  </div>
+</body>
+
 </html>
