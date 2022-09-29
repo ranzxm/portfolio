@@ -73,7 +73,7 @@
 }
 
 .profile-container {
-  height: 100vh;
+  height: 324px;
   width: 70%;
   margin: 15px;
   border-radius: 5px;
@@ -128,7 +128,7 @@
 /* SKILLS CONTAINER */
 
 .myskills-container {
-  height: 100vh;
+  height: 323px;
   width: 90%;
   margin-top: 10px;
   justify-content: space-around;
@@ -343,6 +343,7 @@
 
 @media only screen and (max-width: 767px) {
   .profile-container {
+    height: 100vh;
     width: 80%;
   }
 
@@ -351,6 +352,7 @@
   }
 
   .myskills-container {
+    height: 100%;
     flex-direction: column;
   }
 
@@ -359,5 +361,13 @@
   }
   .tools-skill {
     width: auto;
+  }
+
+  .whyme-container {
+    height: 100%;
+  }
+  .whyme-content {
+    flex-direction: column;
+    height: auto;
   }
 }
