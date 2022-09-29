@@ -73,7 +73,7 @@
 }
 
 .profile-container {
-  height: 250px;
+  height: 100vh;
   width: 70%;
   margin: 15px;
   border-radius: 5px;
@@ -99,6 +99,7 @@
   height: 80%;
   font-size: 15px;
   text-align: justify;
+  transition: 0.5s ease-in-out;
 }
 
 .profile-picture {
@@ -127,6 +128,7 @@
 /* SKILLS CONTAINER */
 
 .myskills-container {
+  height: 100vh;
   width: 90%;
   margin-top: 10px;
   justify-content: space-around;
@@ -192,7 +194,7 @@
   height: auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .html-skills,
@@ -236,7 +238,7 @@
 }
 
 .css-bar {
-  width: 85%;
+  width: 70%;
   background-color: rgb(67, 41, 200);
 }
 
@@ -335,4 +337,27 @@
 
 .whyme-img img {
   width: 200px;
+}
+
+/* MOBILE VERSION RESPONSIVE */
+
+@media only screen and (max-width: 767px) {
+  .profile-container {
+    width: 80%;
+  }
+
+  .short-profile-content {
+    flex-direction: column;
+  }
+
+  .myskills-container {
+    flex-direction: column;
+  }
+
+  .my-skills {
+    width: auto;
+  }
+  .tools-skill {
+    width: auto;
+  }
 }
